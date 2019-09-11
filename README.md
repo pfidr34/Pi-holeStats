@@ -1,8 +1,10 @@
-# LCD
-This repository contains all of the code for interfacing with a 16x2 Character I2C LCD Display. This accompanies my YouTube tutorial here: https://www.youtube.com/watch?v=fR5XhHYzUK0 
+# LCD for Pihole Stats
 
-You can buy one of these great little I2C LCD Displays for just £4.99 on ryanteck.uk: https://ryanteck.uk/displays/11-16x2-character-i2c-lcd-display.html
+## Setup the pi
 
-Thanks for watching!
+1.) Change to the opt directory ```cd /opt```
+2.) Clone the needed files into the direcotry ```sudo git clone https://github.com/pfidr34/lcd.git```
+3.) Change to the opt directory ```cd /opt/lcd```
+4.) Run the installation script ```sudo sh install.sh```
 
-The Raspberry Pi Guy
+## Install as a service
