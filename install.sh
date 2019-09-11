@@ -1,4 +1,5 @@
 #!/bin/bash
+
 if [ "$(id -u)" != "0" ]; then
 	echo "Please re-run as sudo."
 	exit 1
@@ -7,7 +8,8 @@ fi
 echo ""
 echo "Automated Installer Program For I2C LCD Screens"
 echo ""
-echo "Installer by Ryanteck LTD. Cloned and tweaked by Matthew Timmons-Brown for The Raspberry Pi Guy YouTube tutorial"
+echo "Installer by Ryanteck LTD. 
+echo "Cloned and tweaked by Matthew Timmons-Brown for The Raspberry Pi Guy YouTube tutorial"
 echo "Further tweaked by pfidr34 for pihole stats"
 echo ""
 echo "Updating APT & Installing python-smbus and python-requests, if password is asked by sudo please enter it"
@@ -40,8 +42,6 @@ printf "dtparam=i2c_arm=1\n" >> /boot/config.txt
 
 echo "Install is complete. Please press any key to now reboot."
 echo ""
-echo ""
-echo ""
 
-read -n1 -s
+read -n 1 -s
 sudo reboot
