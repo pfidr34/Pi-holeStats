@@ -4,6 +4,7 @@ if [ "$(id -u)" != "0" ]; then
 	exit 1
 fi
 
+echo ""
 echo "Automated Installer Program For I2C LCD Screens"
 echo ""
 echo "Installer by Ryanteck LTD. Cloned and tweaked by Matthew Timmons-Brown for The Raspberry Pi Guy YouTube tutorial"
@@ -13,7 +14,9 @@ echo "Updating APT & Installing python-smbus and python-requests, if password is
 echo ""
 apt-get update
 apt-get install python-smbus python-requests -y
-echo "Should now be installed, now checking revision"
+
+echo ""
+echo "Packages should now be installed, checking revision."
 echo ""
 revision=`python -c "import RPi.GPIO as GPIO; print GPIO.RPI_REVISION"`
 
