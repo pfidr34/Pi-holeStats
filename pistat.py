@@ -1,4 +1,4 @@
-# Original script by: u/SakamotoDesu
+# Original script by: www.reddit.com/u/SakamotoDesu
 # Modified sript by: www.github.com/pfidr34
 
 # Import modules
