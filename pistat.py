@@ -68,6 +68,7 @@ try:
                 pihole = requests.get("http://127.0.0.1/admin/api.php?summaryRaw").json()
 
                 # PAGE 1
+                display.lcd_clear()
                 display.lcd_display_string("Pihole " + str(pihole['status']).upper(),1)
                 if len(localIP) >= 14:
                         display.lcd_display_string(localIP,2)
@@ -76,16 +77,19 @@ try:
                 time.sleep(waitTime)
 
                 # PAGE 2
+                display.lcd_clear()
                 display.lcd_display_string("Blocked " + str(pihole['ads_blocked_today']),1)
                 display.lcd_display_string("Blocked " + str(pihole['ads_percentage_today'])[:4] + "%",2)
                 time.sleep(waitTime)
 
                 # PAGE 3
+                display.lcd_clear()
                 display.lcd_display_string("List " + str(pihole['domains_being_blocked']),1)
                 display.lcd_display_string("Queries " + str(pihole['dns_queries_today']),2)
                 time.sleep(waitTime)
 
                 # PAGE 4
+                display.lcd_clear()
                 if len(str(pihole['gravity_last_updated']['relative']['days'])) < 4:
                         display.lcd_display_string("Gravity " + str(pihole['gravity_last_updated']['relative']['days']) + "D " + str(pihole['gravity_last_updated']['relative']['hours']) + "H",1)
                 else:
