@@ -8,8 +8,8 @@ Dupont wire used: https://www.amazon.com/gp/product/B01EV70C78
 ## Setup the Pi
 
 1.) Change to the opt directory ```cd /opt``` <br>
-2.) Clone the needed files into the direcotry ```sudo git clone https://github.com/pfidr34/Pi-holeStats.git``` <br>
-3.) Change to the opt directory ```cd /opt/Pi-holeStats``` <br>
+2.) Clone the needed files into the direcotry ```sudo git clone https://github.com/pfidr34/piholestats.git``` <br>
+3.) Change to the opt directory ```cd /opt/piholestats``` <br>
 4.) Run the installation script ```sudo bash install.sh``` <br>
 
 ![LCD](https://github.com/pfidr34/Pi-holeStats/blob/master/images/i2cLCD.jpg?raw=true)
@@ -34,14 +34,14 @@ After=multi-user.target
 
 [Service]
 Type=simple
-ExecStart=/usr/bin/python /opt/Pi-holeStats/pistat.py
+ExecStart=/usr/bin/python /opt/piholestats/pistat.py
 Restart=on-abort
 
 [Install]
 WantedBy=multi-user.target
 ``` 
 4.) Set permissions on the script ```sudo chmod 644 /lib/systemd/system/pistat.service``` <br>
-5.) Make the script executable ```chmod +x /opt/Pi-holeStats/pistat.py``` <br>
+5.) Make the script executable ```sudo chmod +x /opt/piholestats/pistat.py``` <br>
 6.) Reload daemon so our service is seen ```sudo systemctl daemon-reload``` <br>
 7.) Enable the service to run on boot ```sudo systemctl enable pistat.service``` <br>
 8.) Set permissions on the script ```sudo systemctl start pistat.service``` <br>
