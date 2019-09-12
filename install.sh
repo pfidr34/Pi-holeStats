@@ -8,7 +8,7 @@ fi
 echo ""
 echo "Automated Installer Program For I2C LCD Screens"
 echo ""
-echo "Installer by Ryanteck LTD. 
+echo "Installer by Ryanteck LTD."
 echo "Cloned and tweaked by Matthew Timmons-Brown for The Raspberry Pi Guy YouTube tutorial"
 echo "Further tweaked by pfidr34 for pihole stats"
 echo ""
