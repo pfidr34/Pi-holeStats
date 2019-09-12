@@ -16,7 +16,7 @@ Dupont wire used: https://www.amazon.com/gp/product/B01EV70C78
 
 1.) Unplug the Pi <br>
 2.) GND on the LCD to pin 6 on the Pi GPIO <br>
-3.) VCC on the LCD to pin 2 on the Pi GPIO <br>
+3.) VCC on the LCD to pin 4 on the Pi GPIO <br>
 4.) SDA on the LCD to pin 3 on the Pi GPIO <br>
 5.) SCL on the LCD to pin 5 on the Pi GPIO <br>
 
