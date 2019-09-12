@@ -12,9 +12,6 @@ Dupont wire used: https://www.amazon.com/gp/product/B01EV70C78
 3.) Change to the opt directory ```cd /opt/piholestats``` <br>
 4.) Run the installation script ```sudo bash install.sh``` <br>
 
-![LCD](https://github.com/pfidr34/Pi-holeStats/blob/master/images/i2cLCD.jpg?raw=true)
-![GPIO](https://github.com/pfidr34/Pi-holeStats/blob/master/images/pi3b+GPIO.jpg?raw=true)
-
 ## Wire the LCD
 
 1.) Unplug the Pi <br>
@@ -22,6 +19,9 @@ Dupont wire used: https://www.amazon.com/gp/product/B01EV70C78
 3.) VCC on the LCD to pin 2 on the Pi GPIO <br>
 4.) SDA on the LCD to pin 3 on the Pi GPIO <br>
 5.) SCL on the LCD to pin 5 on the Pi GPIO <br>
+
+![LCD](https://github.com/pfidr34/Pi-holeStats/blob/master/images/i2cLCD.jpg?raw=true)
+![GPIO](https://github.com/pfidr34/Pi-holeStats/blob/master/images/pi3b+GPIO.jpg?raw=true)
 
 ## Install as a service
 1.) Change to the systemd directory ```cd /lib/systemd/system/``` <br>
