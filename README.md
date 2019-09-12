@@ -48,4 +48,7 @@ WantedBy=multi-user.target
 <br>
 <br>
 <br>
-Project based off of https://github.com/the-raspberry-pi-guy/lcd
+Project based off of: <br>
+https://github.com/the-raspberry-pi-guy/lcd <br>
+and <br>
+https://www.reddit.com/r/pihole/comments/d1ilob/my_cheap_pihole_monitor_on_16x2_lcd_1/
