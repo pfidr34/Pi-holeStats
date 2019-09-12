@@ -44,3 +44,7 @@ WantedBy=multi-user.target
 6.) Reload daemon so our service is seen ```sudo systemctl daemon-reload``` <br>
 7.) Enable the service to run on boot ```sudo systemctl enable pistat.service``` <br>
 8.) Set permissions on the script ```sudo systemctl start pistat.service``` <br>
+<br>
+<br>
+<br>
+Project based off of https://github.com/the-raspberry-pi-guy/lcd
