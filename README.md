@@ -12,7 +12,7 @@ Dupont wire used: https://www.amazon.com/gp/product/B01EV70C78
 3.) Change to the opt directory ```cd /opt/lcd``` <br>
 4.) Run the installation script ```sudo bash install.sh``` <br>
 
-![GPIO](https://github.com/pfidr34/lcd/blob/master/images/piGPIO.jpg?raw=true)
+![GPIO](https://github.com/pfidr34/Pi-holeStats/blob/master/images/pi3b+GPIO.jpg?raw=true)
 
 ## Wire the LCD
 
