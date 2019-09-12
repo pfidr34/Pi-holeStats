@@ -1,4 +1,4 @@
-# LCD for Pihole Stats
+# Pihole Stats
 
 The following has been tested on a Raspberry Pi 3B+ running Raspian Buster Lite
 
@@ -8,7 +8,7 @@ Dupont wire used: https://www.amazon.com/gp/product/B01EV70C78
 ## Setup the Pi
 
 1.) Change to the opt directory ```cd /opt``` <br>
-2.) Clone the needed files into the direcotry ```sudo git clone https://github.com/pfidr34/lcd.git``` <br>
+2.) Clone the needed files into the direcotry ```sudo git clone https://github.com/pfidr34/Pi-holeStats.git``` <br>
 3.) Change to the opt directory ```cd /opt/lcd``` <br>
 4.) Run the installation script ```sudo bash install.sh``` <br>
 
